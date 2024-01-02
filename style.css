@@ -22,7 +22,7 @@
 
         li.nav-item a {
             display: block;
-            color: white;
+            color: black;
             transition: all 1s;
             text-align: center;
             padding: 14px 16px;
@@ -43,7 +43,7 @@
       }
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 :root {
-  --primary-color: white;
+  --primary-color: black;
   --secondary-color: #c4c4c4;
   --background-color: #0f0f0f;
 }
