@@ -1,37 +1,5 @@
         body
-{<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Your Page Title</title>
-  <style>
-    /* Your existing CSS styles */
-  </style>
-</head>
-<body>
-  <ul class="navbar">
-    <li class="icon"><a href="/"><img src="/icon.png" /></a></li>
-    <li class="nav-item"><a href="/games.html"><img src="/icons8-game-35.png" /></a></li>
-    <li class="nav-item"><a href="/home.html"><img src="/icons8-home-35.png" /></a></li>
-  </ul>
-  <iframe id="frame" src="/home.html"></iframe>
-  
-  <!-- Insert the provided JavaScript code here -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var frame = document.getElementById("frame");
-      // Function to load content into the iframe
-      function loadContent(url) {
-        frame.src = url;
-      }
-      // Event listener for navigation bar items
-      document.querySelectorAll(".nav-item a").forEach(function (item) {
-        item.addEventListener("click", function (event) {
-          event.preventDefault(); // Prevent the default link behavior
-          var href = event.currentTarget.getAttribute("href");
-          loadContent(href); // Call the function to load content into the iframe
-        });
-      });
-    });
+
   </script>
 </body>
 </html>
