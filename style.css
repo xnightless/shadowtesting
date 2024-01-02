@@ -1,96 +1,23 @@
 body {
-  background-image: url(<img src="https://mathvideos.stevekoch.ca/uv/service/hvtrs8%2F-mgdka%2Cdksaopdcpr.lev%2Fctvaahoeltq%2F31%3B1%3A47000337878024%2F31%3B1%3A444%3A6094776167%2F%60aakermumnf_6.ue%60p%3Dez%3D45c6gc%3A9%24iq%3D45%3B457%3A9%24ho%3D%3B2a634dad603%3B8fb736efe6f0b617bc9%60100d405%6037a05d43428fec7%3B0%3B4%3B9%3B1%24%3D%24fmroav%3Due%60p%24wkdvh%3F533%24hgiehv%3D08%3B" alt="Image"/>);
+  background-image: url('https://mathvideos.stevekoch.ca/uv/service/hvtrs8%2F-mgdka%2Cdksaopdcpr.lev%2Fctvaahoeltq%2F31%3B1%3A47000337878024%2F31%3B1%3A444%3A6094776167%2F%60aakermumnf_6.ue%60p%3Dez%3D45c6gc%3A9%24iq%3D45%3B457%3A9%24ho%3D%3B2a634dad603%3B8fb736efe6f0b617bc9%60100d405%6037a05d43428fec7%3B0%3B4%3B9%3B1%24%3D%24fmroav%3Due%60p%24wkdvh%3F533%24hgiehv%3D08%3B');
   background-size: cover;
   background-position: center;
-}        body{
-                background-color:black;
-                overflow:none;
-        }
-        ul.navbar {
-            list-style-type: none;
-            margin: 0;
-        z-index:2;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-          position:absolute;
-          width:100%;
-          top:0px;
-          left:0px;
-        }
-
-        li.nav-item {
-            float: left;
-            cursor: pointer !important;
-        }
-
-        li.nav-item a {
-            display: block;
-            color: black;
-            transition: all 1s;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li.nav-item a:hover {
-            background-color: #444;
-        }
-      #frame{
-        border:0px solid black;
-        position:absolute;
-        width:100%;
-        z-index:1;
-        height:100%;
-        bottom:0px;
-        left:0px;
-      }
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
-:root {
-  --primary-color: black;
-  --secondary-color: #c4c4c4;
-  --background-color: #0f0f0f;
+  background-color: black;
+  overflow: none;
 }
-  #title{
-    width:100%;
-    position:absolute;
-    bottom:60%;
-    left:0px;
-    text-align:center;
-    color:var(--primary-color);
-    text-shadow: 3px 6px 2px var(--secondary-color);
-  }
-  
-  #searchbar{
-    width: 70%;
-    position: absolute;
-    bottom: 45%;
-    left: 15%;
-    padding-top:10px;
-    padding-bottom:10px;
-    border-radius: 25px;
-    background: transparent;
-    border: 2px solid black;
-    text-align: center;
-    color:var(--primary-color);
-    border:3px solid var(--primary-color);
-  }
-  #searchbar::placeholder{
-    color:var(--primary-color);
-  }
-body {
-  background-color: var(--background-color);
-  font-family: "Inter", sans-serif;
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  z-index: 2;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
-
-h1, h2, h3 {
-  color: var(--primary-color);
-}
-
-a {
-  color: var(--secondary-color);
-} 
-
+/* Add these styles for snowflakes particles */
 .particles {
   display: flex;
   position: fixed;
@@ -98,35 +25,28 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-
   z-index: 9999;
-  pointer-events:none;
+  pointer-events: none;
 }
-
 .particle {
-
-
-
-
   flex: 1;
   position: relative;
   top: -10%;
   animation: snowflakes-fall 15s linear, snowflakes-shake 5s ease-in-out;
   animation-delay: var(--d);
   animation-iteration-count: infinite;
-  width:10%;
-  height:10%;
-  color:white;
+  width: 10%;
+  height: 10%;
+  color: white;
 }
-
 @keyframes snowflakes-fall {
   100% {
     top: 100%;
   }
 }
-
 @keyframes snowflakes-shake {
   50% {
     transform: translateX(100px) rotate(5deg);
   }
 }
+
