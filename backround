@@ -1,0 +1,5 @@
+body {
+  background-image: url(<img src="https://mathvideos.stevekoch.ca/uv/service/hvtrs8%2F-mgdka%2Cdksaopdcpr.lev%2Fctvaahoeltq%2F31%3B1%3A47000337878024%2F31%3B1%3A444%3A6094776167%2F%60aakermumnf_6.ue%60p%3Dez%3D45c6gc%3A9%24iq%3D45%3B457%3A9%24ho%3D%3B2a634dad603%3B8fb736efe6f0b617bc9%60100d405%6037a05d43428fec7%3B0%3B4%3B9%3B1%24%3D%24fmroav%3Due%60p%24wkdvh%3F533%24hgiehv%3D08%3B" alt="Image"/>);
+  background-size: cover;
+  background-position: center;
+}
