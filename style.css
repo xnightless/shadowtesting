@@ -1,4 +1,4 @@
-    body{
+        body{
                 background-color:black;
                 overflow:none;
         }
@@ -126,4 +126,3 @@ a {
     transform: translateX(100px) rotate(5deg);
   }
 }
-
