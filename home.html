@@ -4,8 +4,8 @@
 <script src="/search.js" defer></script>
 <script src="/error.js" defer></script>
 <link href="index.css" rel="stylesheet">
-<form class="searchform" id="searchform">
-  <input id="searchbar" placeholder="Search the web freely">
+<form class="searchform" id="searchform" method="get" action="https://www.google.com/search">
+<input id="searchbar" placeholder="Search the web freely" type="text" name="q" size="31" value="">
 </form>
 <div title="Ultraviolet Logo" class="logo-wrapper">
   <h1  data-text="&nbsp;Shadow" class="text">&nbsp;Shadow</h1>
@@ -29,7 +29,7 @@
 
   var fontsize=2560/screen.width*17.5;
   document.getElementById("title").style.fontSize=fontsize+"px";
-  
+
   searchform.addEventListener("submit", async (event) => {
     event.preventDefault();
     try {
@@ -58,7 +58,7 @@
     color:var(--primary-color);
     text-shadow: 3px 6px 2px var(--secondary-color);
   }
-  
+
   #searchbar{
     height: 50px;
     width: 70%;
